@@ -1,5 +1,9 @@
 The Royal Game of UR
 
+This game is a two-player race to get all 7 of your counters from one end of the board to the other, first played thousands of years ago in the Middle East. 
+
+https://en.wikipedia.org/wiki/Royal_Game_of_Ur
+
 Versions are available here for the Altair 8800 (16k Basic), ZX Spectrum 48k, ZX81 (16k), Sinclair QL and 
 Cambridge Z88. Except for the Altair, they all use the BASIC that was supplied in the machine, and all use the same game 
 engine. The Z88 and QL versions make use of the more advanced BASIC features such as parameterised procedures.
