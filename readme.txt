@@ -19,7 +19,7 @@ A listing [URaltair.bas] is available in the downloads, this is for the Microsof
 
 Sinclair ZX Spectrum 48k
 ========================
-Two listings are available, one for the graphics definition [URspectrumcharset.bas] and the other is the game [URspectrumgame.bas]. There is also Z80 snapshot file [URspec48.z80] in the downloads. These were developed using BasinC and tested on Spectaculator and a real ZX Spectrum.
+Two listings are available, one for the graphics definition [URspec48charset.bas] and the other is the game [URspec48game.bas]. There is also Z80 snapshot file [URspec48.z80] in the downloads. These were developed using BasinC and tested on Spectaculator and a real ZX Spectrum.
 
 Sinclair ZX81 (16k)
 ===================
