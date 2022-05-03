@@ -15,20 +15,20 @@ The version notes here are displayed in the order they were developed. All were 
 
 Altair 8800
 ===========
-A listing is available in the downloads, this is for the Microsoft 16k BASIC. It was developed using the Altairduino and the 16k ROM Basic option.
+A listing [ur altair.bas] is available in the downloads, this is for the Microsoft 16k BASIC. It was developed using the Altairduino and the 16k ROM Basic option.
 
 Sinclair ZX Spectrum 48k
 ========================
-Two listings are available, one for the graphics definition and the other is the game. There is also Z80 snapshot file in the downloads. These were developed using BasinC and tested on Spectaculator and a real ZX Spectrum.
+Two listings are available, one for the graphics definition [ur spectrum char set.bas] and the other is the game [ur spectrum.bas]. There is also Z80 snapshot file [URspec48.z80] in the downloads. These were developed using BasinC and tested on Spectaculator and a real ZX Spectrum.
 
 Sinclair ZX81 (16k)
 ===================
-A listing is available along with a p file, for loading into an emulator or real ZX81. Development was done using the zxtext2p command line application. It was tested on the EightyOne emulator.
+A listing [ur ZX81.bas] is available along with a p file [URzx81.P], for loading into an emulator or real ZX81. Development was done using the zxtext2p command line application. It was tested on the EightyOne emulator.
 
 Sinclair QL
 ===========
-A listing is available along with a MDV file. This was developed in the Qemulator and has only been tested in the emulator.
+A listing [ur QL.bas] is available along with a MDV file [UR.mdv]. This was developed in the Qemulator and has only been tested in the emulator.
 
 Cambridge Z88
 =============
-A listing and flash drive file are available, developed in BBC Basic for Windows and tested in the OZvm emulator.
+A listing [urZ88.bbc] and snapshot file [ur snap.z88] are available, developed in BBC Basic for Windows and tested in the OZvm emulator.
