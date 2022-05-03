@@ -6,7 +6,7 @@ https://en.wikipedia.org/wiki/Royal_Game_of_Ur
 
 Versions are available here for the Altair 8800 (16k Basic), ZX Spectrum 48k, ZX81 (16k), Sinclair QL and Cambridge Z88. Except for the Altair, they all use the BASIC that was supplied in the machine, and all use the same game engine. The Z88 and QL versions make use of the more advanced BASIC features such as parameterised procedures.
 
-The display of each version is basically the same layout, but with differences for each computers graphic capabilities.
+The display of each version is basically the same layout, but with differences for each computer's graphic capabilities.
 
 The version notes here are displayed in the order they were developed. All were written using VS code and then copied into the relevant format by various means described below.
 
