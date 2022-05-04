@@ -1,6 +1,6 @@
 The Royal Game of UR
 
-This game is an ancient two-player race to get all 7 of your counters from one end of the board to the other, first played thousands of years ago in the Middle East it has now been recreated for vintage computers. 
+This game is a two-player race to get all seven of your counters from one end of the board to the other, first played thousands of years ago in the Middle East it has now been recreated for vintage computers. 
 
 https://en.wikipedia.org/wiki/Royal_Game_of_Ur
 
@@ -8,7 +8,7 @@ Versions are available here for the Altair 8800 (16k Basic), ZX Spectrum 48k, ZX
 
 The display of each version is basically the same layout, but with differences for each computer's graphic capabilities.
 
-The version notes here are displayed in the order they were developed. All were written using VS code and then copied into the relevant format by various means described below.
+The version notes here are displayed in the order they were developed. All were written using VS code and then copied into the relevant format by various means.
 
 Altair 8800
 ===========
