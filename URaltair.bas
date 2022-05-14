@@ -1,5 +1,6 @@
   10 REM *********************************
   20 REM *     The Royal Game of UR      *
+  25 REM *             V1.1              *
   30 REM *       Altair 8800 Basic       *
   40 REM *     by Mark Bennett 2022      *
   50 REM * github.com/mark-bennett-uk/ur *
@@ -284,10 +285,13 @@
 5320 LET t(i) = -1
 5330 NEXT i
 5332 LET u = 0
+5333 LET o = 0
 5335 IF d = 0 THEN GOTO 5599
 5340 IF e = 2 THEN GOTO 5460
 5350 REM player 1
 5360 FOR i = 1 TO 7
+5365 IF f(1) = 2 AND p(i) = 1 AND o = 1 THEN GOTO 5440
+5366 IF p(i) = 1 THEN LET o = 1
 5370 IF p(i) = 16 THEN GOTO 5440
 5380 IF p(i) + d > 16 THEN GOTO 5440
 5390 IF b(p(i) + d) > 0 AND p(i) + d < 16 THEN GOTO 5440
@@ -300,6 +304,8 @@
 5450 GOTO 5599
 5460 REM player 2
 5470 FOR i = 1 TO 7
+5475 IF f(2) = 2 AND q(i) = 1 AND o = 1 THEN GOTO 5550
+5476 IF q(i) = 1 THEN LET o = 1
 5480 IF q(i) = 16 THEN GOTO 5550
 5490 IF q(i) + d > 16 THEN GOTO 5550
 5500 If c(q(i) + d) > 0  AND q(i) + d < 16 THEN GOTO 5550
@@ -364,7 +370,7 @@
 6012 REM l$ = temporary value
 6013 REM m = move selected from list
 6014 REM n
-6015 REM o
+6015 REM o = start counter done flag
 6016 REM p(7) = counter positions for player 1 1 = start 2-15 = on board 16 = finished
 6017 REM q(7) = counter positions for player 2 1 = start 2-15 = on board 16 = finished
 6018 REM r = return (status 0 = OK)
