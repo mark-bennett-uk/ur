@@ -348,21 +348,25 @@
 3420 END DEF roll_dice
 
 3430 DEF PROC get_possible_moves
-3440   LOCAL i, j
+3440   LOCAL i, j, o
+3445   LET o = 0
 3450   FOR i = 1 TO 14
 3460     t(i) = -1
 3470   END FOR i
 3480   move_count = 0
 3490   IF dice_roll = 0 THEN RETURN
 3520   FOR i = 1 TO 7
-3530     IF p(player, i) < 16 AND p(player, i) + dice_roll <= 16 THEN 
-3540       IF b(player, p(player, i) + dice_roll) = 0 OR p(player, i) + dice_roll = 16 THEN
-3550         IF p(player, i) + dice_roll = 9 AND b(not_player, 9) > 0 THEN 
-3560         ELSE
-3570           j = (i * 2) - 1
-3580           t(j) = p(player, i)
-3590           t(j + 1) = p(player, i) + dice_roll
-3600           move_count = move_count + 1
+3525     IF f(player) <> 2 OR p(player, i) <> 1 OR o <> 1 THEN 
+3527       IF f(player) = 2 AND p(player, i) = 1 THEN LET o = 1
+3530       IF p(player, i) < 16 AND p(player, i) + dice_roll <= 16 THEN 
+3540         IF b(player, p(player, i) + dice_roll) = 0 OR p(player, i) + dice_roll = 16 THEN
+3550           IF p(player, i) + dice_roll = 9 AND b(not_player, 9) > 0 THEN 
+3560           ELSE
+3570             j = (i * 2) - 1
+3580             t(j) = p(player, i)
+3590             t(j + 1) = p(player, i) + dice_roll
+3600             move_count = move_count + 1
+3605           END IF
 3610         END IF
 3620       END IF
 3630     END IF
