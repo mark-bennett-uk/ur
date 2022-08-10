@@ -24,7 +24,7 @@ A listing [URzx81.bas] is available along with a p file [URzx81.P], for loading 
 
 Sinclair QL
 ===========
-A listing [URql.bas] is available along with a MDV file [URql.mdv]. This was developed in the Qemulator and has only been tested in the emulator.
+A listing [URql.bas] is available along with a MDV file [URql.mdv]. This was developed in the Qemulator and has been tested in the emulator and on a real Sinclair QL.
 
 Cambridge Z88
 =============
